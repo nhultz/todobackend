@@ -9,3 +9,8 @@ venv
 
 # Ignore OSX files
 .DS_Store
+
+# Ignore all coverage reports and test output
+.coverage
+coverage.xml
+unittests.xml
