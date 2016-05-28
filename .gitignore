@@ -14,3 +14,6 @@ venv
 .coverage
 coverage.xml
 unittests.xml
+
+# Ignore built wheel archives
+target
