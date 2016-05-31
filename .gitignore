@@ -15,5 +15,6 @@ venv
 coverage.xml
 unittests.xml
 
-# Ignore built wheel archives
+# Ignore build and test artifacts
 target
+reports
