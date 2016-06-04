@@ -12,7 +12,7 @@ services:
     links:
       - db
     volumes:
-      -webroot:/var/www/todobackend
+      - webroot:/var/www/todobackend
     environment:
       DJANGO_SETTINGS_MODULE: todobackend.settings.release
       MYSQL_HOST: db
